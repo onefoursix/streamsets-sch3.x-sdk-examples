@@ -10,7 +10,7 @@ If you are using StreamSets DataOps Platform instead, use the examples [here](ht
 
 ### [notify-on-missed-execution.py](python/notify-on-missed-execution.py)
 
-This example sends an email notification if a scheduled JOb execution was missed
+This example sends an email notification if a scheduled Job execution was missed
 
 Prerequisites:
 
@@ -87,9 +87,10 @@ Here is example output for a run if the Job did not execute at the expected time
     ================================================================
 ````
 
-Here is am example email that was sent for the missed execution:
+Here is an example email that was sent for the missed execution:
 
-[missed-execution-email.png](images/missed-execution-email.png)
+<img src="images/missed-execution-email.png" alt="missed execution email" width="70%">
+
 
 Additionally, if the Job is not in an INACTIVE state when the script runs, the following output is written:
 ````
@@ -109,8 +110,9 @@ Additionally, if the Job is not in an INACTIVE state when the script runs, the f
 
     ===========================================================
     ````
-Here is am example email that was sent for the unexpected Job state:
-[missed-execution-email.png](images/unexpected-state-email.png)
+Here is an example email that was sent for the unexpected Job state:
+<img src="images/unexpected-state-email.png" alt="unexpected state email" width="70%">
+
 
 
 <hr/>
