@@ -4,8 +4,6 @@ This project includes an example of using the [StreamSets SDK for Python](https:
 
 If you are using StreamSets DataOps Platform instead, use the examples [here](https://github.com/onefoursix/streamsets-dataops-sdk-examples) instead.
 
-###  Control Hub API Credentials
-
 ## Examples
 
 <hr/>
