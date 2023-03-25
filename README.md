@@ -109,8 +109,9 @@ Additionally, if the Job is not in an INACTIVE state when the script runs, the f
     Actual Job status is 'INACTIVE_ERROR'
 
     ===========================================================
-    ````
+````
 Here is an example email that was sent for the unexpected Job state:
+
 <img src="images/unexpected-state-email.png" alt="unexpected state email" width="70%">
 
 
