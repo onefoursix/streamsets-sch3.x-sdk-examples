@@ -38,6 +38,12 @@ Prerequisites:
         export SCH_PASSWORD=<the Control Hub password>
         export SMTP_USER=<the smtp user>
         export SMTP_PASSWORD=<the smtp password>
+        
+
+The script assumes Control Hub is reachable; the script could be modified to send an email if Control Hub is not reachable.
+
+The script also assumes the use of start-tls to connect to the SMTP Server.
+
 '''
 
 # Imports
