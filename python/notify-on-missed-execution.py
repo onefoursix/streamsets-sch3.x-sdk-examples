@@ -64,7 +64,7 @@ job_expected_frequency_minutes= 24 * 60 # example for 24 hours: 24 * 60
 smtp_host = '<your smtp host>'
 smtp_port = 587
 email_sender = '<your from email>'
-email_recipient = '<your to email>
+email_recipient = '<your to email>'
 smtp_user = os.getenv('SMTP_USER')
 smtp_password = os.getenv('SMTP_PASSWORD')
 
