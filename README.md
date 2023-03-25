@@ -31,22 +31,22 @@ Prerequisites:
  - Set the following variables in the script:
  
 ````
-        job_id - the ID of the Job to be monitored
-        job_expected_frequency_minutes - for example, if a Job is expected to run once a day, use a value of 24 * 60
-        sdc_timezone - the timezone for the Data Collector where the Job runs, for example 'US/Pacific'
-        smtp_host - the hostname of the SMTP server
-        smtp_port - the SMTP port
-        email_sender - the email "from" address
-        email_recipient - the email "to" address
+    job_id - the ID of the Job to be monitored
+    job_expected_frequency_minutes - for example, if a Job is expected to run once a day, use a value of 24 * 60
+    sdc_timezone - the timezone for the Data Collector where the Job runs, for example 'US/Pacific'
+    smtp_host - the hostname of the SMTP server
+    smtp_port - the SMTP port
+    email_sender - the email "from" address
+    email_recipient - the email "to" address
 ````
 
  - To avoid including credentials in the script, export these environment variables
    prior to running the script:
 ````
-        export SCH_USER=<the Control Hub user>
-        export SCH_PASSWORD=<the Control Hub password>
-        export SMTP_USER=<the smtp user>
-        export SMTP_PASSWORD=<the smtp password>
+    export SCH_USER=<the Control Hub user>
+    export SCH_PASSWORD=<the Control Hub password>
+    export SMTP_USER=<the smtp user>
+    export SMTP_PASSWORD=<the smtp password>
 ````
 
 Here is example output for a run if the Job did execute at the expected time:
@@ -112,7 +112,7 @@ Additionally, if the Job is not in an INACTIVE state when the script runs, the f
 ````
 Here is an example email that was sent for the unexpected Job status:
 
-<img src="images/unexpected-status-email.png" alt="unexpected status email" width="70%">
+<img src="images/unexpected-status-email.png" alt="unexpected status email" width="90%">
 
 
 
