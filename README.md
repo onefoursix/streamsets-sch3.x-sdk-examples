@@ -29,8 +29,7 @@ Prerequisites:
  - An SMTP Server with a user login and password in order to send email notifications
 
  - Set the following variables in the script:
- 
-````
+ ````
     job_id - the ID of the Job to be monitored
     job_expected_frequency_minutes - for example, if a Job is expected to run once a day, use a value of 24 * 60
     sdc_timezone - the timezone for the Data Collector where the Job runs, for example 'US/Pacific'

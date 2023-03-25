@@ -52,7 +52,7 @@ from streamsets.sdk import ControlHub
 sdc_timezone = 'US/Pacific'
 
 # Job to monitor
-job_id = '0d203283-ae50-40f4-b54f-ef8418dc9c79:schbrooks'
+job_id = '<your job id>'
 
 # Control Hub Connection
 sch_url = 'https://cloud.streamsets.com'
@@ -63,10 +63,10 @@ sch_password = os.getenv('SCH_PASSWORD')
 job_expected_frequency_minutes= 24 * 60 # example for 24 hours: 24 * 60
 
 # SMTP Settings
-smtp_host = 'smtp.acme.org'
+smtp_host = '<your smtp host>'
 smtp_port = 587
-email_sender = 'admin@acme.org'
-email_recipient = 'datainfra@acme.org'
+email_sender = '<your from email>'
+email_recipient = '<your to email>
 smtp_user = os.getenv('SMTP_USER')
 smtp_password = os.getenv('SMTP_PASSWORD')
 
