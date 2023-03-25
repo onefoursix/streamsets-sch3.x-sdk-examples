@@ -110,9 +110,9 @@ Additionally, if the Job is not in an INACTIVE state when the script runs, the f
 
     ===========================================================
 ````
-Here is an example email that was sent for the unexpected Job state:
+Here is an example email that was sent for the unexpected Job status:
 
-<img src="images/unexpected-state-email.png" alt="unexpected state email" width="70%">
+<img src="images/unexpected-status-email.png" alt="unexpected status email" width="70%">
 
 
 
