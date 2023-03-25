@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
 '''
-This script detects if a Job has missed its scheduled execution.
-it sends a notification email. The script can be run from cron at the appropraite 
-If the Job has not run within a specified monitoring period (for example in the
-past hour or day) an email notification will be sent.  
+This script detects if a Job has missed its scheduled execution, and if so
+it sends a notification email.  
 
 The script can be run using cron at the appropriate interval 
 
