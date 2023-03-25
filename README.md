@@ -1,4 +1,4 @@
-# streamsets-dataops-sdk-examples
+# streamsets-sdk-examples
 
 This project includes an example of using the [StreamSets SDK for Python](https://docs.streamsets.com/sdk/latest/index.html) for StreamSets Control Hub 3.x
 
