@@ -13,7 +13,11 @@ If you are using StreamSets DataOps Platform, use the examples [here](https://gi
 This script detects if a Job has missed its scheduled execution, and if so,
 it sends a notification email.  
 
-The script can be run using cron at the appropriate interval 
+The script can be run using cron at the appropriate interval.
+
+The script assumes Control Hub is reachable; the script could be modified to send an email if Control Hub is not reachable.
+
+The script also assumes the use of start-tls to connect to the SMTP Server.
 
 Prerequisites:
 
