@@ -10,7 +10,7 @@ If you are using StreamSets DataOps Platform instead, use the examples [here](ht
 
 ### [notify-on-missed-execution.py](python/notify-on-missed-execution.py)
 
-This script detects if a Job has missed its scheduled execution, and if so
+This script detects if a Job has missed its scheduled execution, and if so,
 it sends a notification email.  
 
 The script can be run using cron at the appropriate interval 
